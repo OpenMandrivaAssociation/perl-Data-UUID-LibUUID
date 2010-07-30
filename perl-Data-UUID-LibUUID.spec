@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 3
 
 Summary:    Drop in L<Data::UUID> replacement
 License:    GPL+ or Artistic
@@ -17,7 +17,7 @@ BuildRequires: perl(Test::More)
 BuildRequires: perl(Test::use::ok)
 BuildRequires: perl-asa
 BuildRequires: perl-devel
-BuildRequires: devel(libuuid)  
+BuildRequires: libuuid-devel
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 
 %description
