@@ -49,3 +49,23 @@ rm -rf %buildroot
 %perl_vendorlib/*
 
 
+
+
+%changelog
+* Wed Jan 25 2012 Per Øyvind Karlsen <peroyvind@mandriva.org> 0.50.0-5
++ Revision: 768358
+- svn commit -m mass rebuild of perl extension against perl 5.14.2
+
+* Sun May 29 2011 Funda Wang <fwang@mandriva.org> 0.50.0-4
++ Revision: 681385
+- mass rebuild
+
+* Fri Jul 30 2010 Shlomi Fish <shlomif@mandriva.org> 0.50.0-3mdv2011.0
++ Revision: 563407
+- Changed the uuid builrequries to something better (and portable)
+- Add the missing devel(libuuid)
+- import perl-Data-UUID-LibUUID
+
+
+* Fri Feb 05 2010 cpan2dist 0.04-1mdv
+- initial mdv release, generated with cpan2dist
